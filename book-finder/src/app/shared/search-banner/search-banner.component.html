@@ -1,0 +1,36 @@
+<div class="wrap">
+  <div class="search">
+     <input #input type="text" class="searchTerm" placeholder="Find your book by filter">
+     <button class="searchButton" (click)="setData(input.value)">
+       <i class="fa fa-search"></i>
+    </button>
+  </div>
+
+  <ul class="group-radio">
+    <div class="radio-toolbar">
+      <li>
+        <input [(ngModel)]="value" type="radio" id="radiointitle" name="intitle" value="intitle" checked>
+        <label for="radiointitle">By Title</label>
+      </li>
+      <li>
+        <input [(ngModel)]="value" type="radio" id="radioinauthor" name="inauthor" value="inauthor">
+        <label for="radioinauthor">By Author</label>
+      </li>
+      <li>
+        <input [(ngModel)]="value" type="radio" id="radioinpublisher" name="inpublisher" value="inpublisher">
+        <label for="radioinpublisher">By Publisher</label>
+      </li>
+      <li>
+        <input [(ngModel)]="value" type="radio" id="radiosubject" name="subject" value="subject">
+        <label for="radiosubject">By Subject</label>
+      </li>
+    </div>
+
+
+  </ul>
+
+</div>
+
+
+
+

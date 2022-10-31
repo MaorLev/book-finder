@@ -1,0 +1,17 @@
+
+#header {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../../../assets/images/image_book2.jpeg) ;
+  padding: 5%;
+    }
+
+h1, p {
+  font-family: 'Lobster', cursive;
+  font-size: 275%;
+  text-align: center;
+  color: rgb(233, 227, 227);
+  text-decoration-line: none;
+}
